@@ -1,0 +1,12 @@
+@font-face {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+}
+
+body {
+    background-color: #191f2c;
+    font-family: 'NanumSquareRound', sans-serif;
+    color: #fff;
+}
