@@ -13,7 +13,7 @@ function Board({ name, color, gameHistory, sum, otherSum, className}){
             <h2 className='Board-heading'>총점</h2>
             <p>{sum}</p>
             <h2 className='Board-heading'>기록</h2>
-            <p>{gameHistory.join(', ')}</p>
+            <p className='Board-score'>{gameHistory.join(', ')}</p>
         </div>
     );
  };
